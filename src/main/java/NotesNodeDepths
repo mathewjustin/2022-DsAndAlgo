@@ -1,0 +1,13 @@
+The distance between a node and trees root is called node depth.
+
+The depth of the parent should be passed down to the child.
+
+So,
+
+f(n,d)=d+f(l,d+1)+f(r,d+1)
+
+where.
+n is the root node.
+d is the depth.
+l is the left node.
+r is the right node.
